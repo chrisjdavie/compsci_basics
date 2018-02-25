@@ -11,7 +11,8 @@ class Test(unittest.TestCase):
         ([10, 9], 1),
         ([10, 22, 9], 2),
         ([10, 22, 9, 10, 11], 3),
-        ([], 0)
+        ([], 0),
+        ([1, 3, 2, 3], 3)
     ])
     def test(self, sequence, expected_length):
         self.assertEqual(LIS(sequence), expected_length)
@@ -26,15 +27,15 @@ def LIS(sequence):
     def LIS_i(sequence, i):
         nonlocal maximum
         def LIS_j(sequence, j):
-            if j >= 0:
+            if j < i:
                 max_i = 1 + LIS_i(sequence, j)
-                max_j = LIS_j(sequence, j - 1)
+                max_here = LIS_j(sequence, j + 1)
                 if sequence[j] < sequence[i]:
-                    max_here = max([max_i, max_j])
-                    return max_here
+                    max_here = max([max_i, max_here])
+                return max_here
             return 1
 
-        max_here = LIS_j(sequence, i-1)
+        max_here = LIS_j(sequence, 0)
         maximum = max([maximum, max_here])
         return max_here
 
