@@ -9,4 +9,4 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Problem   | Link  | Solutions  |
 | --------- | ----- | ---------- |
 | Fibonacci  | https://www.geeksforgeeks.org/?p=12635  | Recursive, memoization, tabulation, sensible  |
-| Longest Common Subsequence  | https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0  | Recursive, memoization, tabulation badly  |
+| Longest Common Subsequence  | https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0  | Recursive, memoization, tabulation  |
