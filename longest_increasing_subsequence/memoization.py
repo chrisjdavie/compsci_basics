@@ -18,13 +18,28 @@ class Test(unittest.TestCase):
         self.assertEqual(LIS(sequence), expected_length)
 
 
+def memoization(func):
+
+    prev = {}
+
+    def wrapped(sequence, i):
+        nonlocal prev
+        if i == len(sequence) - 1:
+            prev = {}
+        if i not in prev:
+            prev[i] = func(sequence, i)
+        return prev[i]
+
+    return wrapped
+
+
 def LIS(sequence):
     if not sequence:
         return 0
 
     maximum = 1
 
-
+    @memoization
     def LIS_i(sequence, i):
         nonlocal maximum
         def LIS_j(sequence, k, j):
