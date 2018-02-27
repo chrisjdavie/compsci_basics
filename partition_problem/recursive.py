@@ -1,4 +1,3 @@
-from copy import copy
 import unittest
 from parameterized import parameterized
 
@@ -16,24 +15,32 @@ class Test(unittest.TestCase):
         ([1,1,1,1], True)
     ])
     def test(self, arr, expected_result):
-        self.assertIs(partition(arr,[]), expected_result)
+        self.assertIs(partition(arr), expected_result)
 
-def partition(arr_l, arr_r):
-    if not arr_l:
-        return False
-    if sum(arr_l) == sum(arr_r):
+
+stop = False
+
+def _partition(arr, summ_2, n):
+    global stop
+    if not summ_2 or stop:
+        stop = True
         return True
+    if n == 0 or summ_2 < 0:
+        return False
+    return _partition(arr, summ_2 - arr[n-1], n-1) or _partition(arr, summ_2, n-1)
 
-    for val in arr_l:
-        arr_l_loop = copy(arr_l)
-        arr_r_loop = copy(arr_r)
 
-        arr_l_loop.remove(val)
-        arr_r_loop.append(val)
 
-        if partition(arr_l_loop, arr_r_loop):
-            return True
+def partition(arr):
+    global stop
+    stop = False
 
-    return False
+    summ = sum(arr)
 
+    if summ%2 or not arr:
+        return False
+
+    summ_2 = summ//2
+
+    return _partition(arr, summ_2 - arr[-1], len(arr)-1) or _partition(arr, summ_2, len(arr)-1)
 
