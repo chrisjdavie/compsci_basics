@@ -12,7 +12,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Longest Common Subsequence  | https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0  | Recursive, memoization, tabulation  |
 | Longest Increasing Subsequence  | https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0  | Tabulation, recursive, memoization  |
 | Edit Distance  | https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/  | Recursive, memoization, tabulation  |
-| Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  |  |
+| Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  | Recursive  |
 
 ### Redo
 
@@ -21,4 +21,5 @@ Wasn't happy with how I performed on these
 | Problem  | Solution  | Notes  |
 | -------- | --------- | ------ |
 | Longest Increasing Subsequence  | Recursive  | I couldn't figure out the recursive solution without a hint  |
+| Partition problem  | Recursive  | I got slow, working solutions because I didn't know about recursive combination generation  |
 
