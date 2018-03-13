@@ -25,4 +25,4 @@ Wasn't happy with how I performed on these
 | Longest Increasing Subsequence  | Recursive  | I couldn't figure out the recursive solution without a hint  |
 | Partition problem  | Recursive  | I got slow, working solutions because I didn't know about recursive combination generation  |
 | Minimum Sum Partition  | Queue  | Made far too many typos when building solution  |
-| Path in Matrix  | Recursive  | Had real issues with columns and row in the right order, which is unusual  |
+| Path in Matrix  | Recursive, tabulation  | Had real issues with columns and row in the right order, which is unusual  |
