@@ -26,3 +26,12 @@ Wasn't happy with how I performed on these
 | Partition problem  | Recursive  | I got slow, working solutions because I didn't know about recursive combination generation  |
 | Minimum Sum Partition  | Queue  | Made far too many typos when building solution  |
 | Path in Matrix  | Recursive, tabulation  | Had real issues with columns and row in the right order, which is unusual  |
+
+### Thoughts
+
+* Tabulation works when there's a clear indexing
+* Memoization works when there's a unique representation of a subproblem that gets repeatedly solved
+* Tabulation and memoization works when there's a depth-first solution, filling in the blanks
+* Queue solutions don't reduce the complexity of the problem, but do reduce the recursion
+* Queue solutions don't seem to have much benefits over tabulation for backwards filling - except perhaps in the sense of decoupling the logic of the problem from the logic of the iteration
+  * I wonder if there is a problem class that uses cacheing (as per memoization) over multiple problem types - some ranges of function that produces stateless answers, and has the inputs regularly reused
