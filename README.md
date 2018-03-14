@@ -15,6 +15,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  | Recursive  |
 | Minimum Sum Partition  | https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/  | Recursive, Queue  |
 | Path in Matrix  | https://practice.geeksforgeeks.org/problems/path-in-matrix/0  | Recursive, memoization  |
+| Subset Sum  | https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  | Recursive  |
 
 ### Redo
 
