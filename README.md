@@ -13,7 +13,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Longest Increasing Subsequence  | https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0  | Tabulation, recursive, memoization  |
 | Edit Distance  | https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/  | Recursive, memoization, tabulation  |
 | Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  | Recursive, tabulation, queue  |
-| Minimum Sum Partition  | https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/  | Recursive, Queue  |
+| Minimum Sum Partition  | https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/  | Recursive, queue, tabulation  |
 | Path in Matrix  | https://practice.geeksforgeeks.org/problems/path-in-matrix/0  | Recursive, memoization  |
 | Subset Sum  | https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  | Recursive, tabulation  |
 
@@ -25,7 +25,7 @@ Wasn't happy with how I performed on these
 | -------- | --------- | ------ |
 | Longest Increasing Subsequence  | Recursive  | I couldn't figure out the recursive solution without a hint  |
 | Partition problem  | Recursive  | I got slow, working solutions because I didn't know about recursive combination generation  |
-| Minimum Sum Partition  | Queue  | Made far too many typos when building solution  |
+| Minimum Sum Partition  | Queue, tabulation  | Made far too many typos when building solution  |
 | Path in Matrix  | Recursive, tabulation  | Had real issues with columns and row in the right order, which is unusual  |
 | Subset Sum  | Tabulation  | Column, row issues, typos  |
 
