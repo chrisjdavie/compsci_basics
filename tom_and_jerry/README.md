@@ -1,0 +1,1 @@
+This problem has an odd feature, the odd initial numbers will always go to an even solution, and the even solution will always go to an odd or even solution. Whoever ends up on an even solution will win (2 -> 1), so in an optimal game, whichever player ends up on even will win (except 0).

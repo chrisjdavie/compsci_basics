@@ -16,6 +16,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Minimum Sum Partition  | https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/  | Recursive, queue, tabulation  |
 | Path in Matrix  | https://practice.geeksforgeeks.org/problems/path-in-matrix/0  | Recursive, memoization  |
 | Subset Sum  | https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  | Recursive, tabulation, queue  |
+| Tom and Jerry  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, simple  |
 
 ### Redo
 
