@@ -12,7 +12,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Longest Common Subsequence  | https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0  | Recursive, memoization, tabulation  |
 | Longest Increasing Subsequence  | https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0  | Tabulation, recursive, memoization  |
 | Edit Distance  | https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/  | Recursive, memoization, tabulation  |
-| Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  | Recursive, tabulation  |
+| Partition problem  | https://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/  | Recursive, tabulation, queue  |
 | Minimum Sum Partition  | https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/  | Recursive, Queue  |
 | Path in Matrix  | https://practice.geeksforgeeks.org/problems/path-in-matrix/0  | Recursive, memoization  |
 | Subset Sum  | https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  | Recursive, tabulation  |
