@@ -17,6 +17,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Path in Matrix  | https://practice.geeksforgeeks.org/problems/path-in-matrix/0  | Recursive, memoization  |
 | Subset Sum  | https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/  | Recursive, tabulation, queue  |
 | Tom and Jerry  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, simple  |
+| Pick from top or bottom  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, tabulation  |
 
 ### Redo
 
@@ -29,6 +30,7 @@ Wasn't happy with how I performed on these
 | Minimum Sum Partition  | Queue, tabulation  | Made far too many typos when building solution  |
 | Path in Matrix  | Recursive, tabulation  | Had real issues with columns and row in the right order, which is unusual  |
 | Subset Sum  | Tabulation. Queue  | Column, row issues, typos. Made off-by one error in indexing  |
+| Pick from top or bottom  | Didn't get the code expression of the algorithm correct first time  | Tabulation  |
 
 ### Thoughts
 
