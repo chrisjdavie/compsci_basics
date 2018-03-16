@@ -1,0 +1,3 @@
+There is technically a recursive memoization version of this - but the 2nd dimension is the weight limit. You can probably have something using the constraint that, for a given item index n, if there's a solution for a lower or equal n (assuming descening n) that has a higher value and lower-or-equal weight, use that instead. It would block out a lot of solutions.
+
+But using the integer programming technique implemented in tabulation.py would seem likely faster, or a more well-defined O(N). (That could be improved by finding the minimum common denominator of all the values, but I don't know how long that computation would take and seems excessive for a practice task like this).

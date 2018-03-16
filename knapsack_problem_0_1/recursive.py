@@ -46,6 +46,9 @@ def _fill_knapsack(val_so_far, weight_so_far, n, best_knapsack, items, max_weigh
 
 
 def fill_knapsack(raw_items, weight_limit):
+    """You are given weights and values of items, put these items in a knapsack
+       of capacity weight_limit to get the maximum total value in the knapsack."""
+
     items = [ KnapsackItem(*ri) for ri in raw_items ]
     best_knapsack = BestKnapsack(weight_limit)
 
