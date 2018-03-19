@@ -44,3 +44,11 @@ Wasn't happy with how I performed on these
 * Queue solutions don't reduce the complexity of the problem, but do reduce the recursion
 * Queue solutions don't seem to have much benefits over tabulation for backwards filling - except perhaps in the sense of decoupling the logic of the problem from the logic of the iteration
   * I wonder if there is a problem class that uses cacheing (as per memoization) over multiple problem types - some ranges of function that produces stateless answers, and has the inputs regularly reused
+* Probably ought to watch more videos with how people talk/think about this, some gaps in my head
+* Need to think more about indicies before I implement these - even though I have the pattern, translating that into the indicies isn't something I do well atm
+
+## Subject 2 - Sorting and searching
+
+| Problem   | Link  | Solutions  |
+| --------- | ----- | ---------- |
+| Binary search  | https://www.geeksforgeeks.org/binary-search/  |  |
