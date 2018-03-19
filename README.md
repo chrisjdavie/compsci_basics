@@ -34,7 +34,7 @@ Wasn't happy with how I performed on these
 | Path in Matrix  | Recursive, tabulation  | Had real issues with columns and row in the right order, which is unusual  |
 | Subset Sum  | Tabulation. Queue  | Column, row issues, typos. Made off-by one error in indexing  |
 | Pick from top or bottom  | Didn't get the code expression of the algorithm correct first time  | Tabulation  |
-| Boolean Parenthesization Problem  | Indexing wrong all over the place  | Memoization  |
+| Boolean Parenthesization Problem  | Indexing wrong all over the place, typos  | Memoization, Tabulation  |
 
 ### Thoughts
 
