@@ -51,4 +51,13 @@ Wasn't happy with how I performed on these
 
 | Problem   | Link  | Solutions  |
 | --------- | ----- | ---------- |
-| Binary search  | https://www.geeksforgeeks.org/binary-search/  |  |
+| Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative  |
+
+
+### Redo
+
+Wasn't happy with how I performed on these
+
+| Problem  | Solution  | Notes  |
+| -------- | --------- | ------ |
+| Binary search  | https://www.geeksforgeeks.org/binary-search/  | Messed up on the midpoint calculation  |
