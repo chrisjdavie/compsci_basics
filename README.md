@@ -51,7 +51,8 @@ Wasn't happy with how I performed on these
 
 | Problem   | Link  | Solutions  |
 | --------- | ----- | ---------- |
-| Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative  |
+| Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative, recursive  |
+| Bitonic array  | https://practice.geeksforgeeks.org/problems/finding-number/0  | Recursive  |
 
 
 ### Redo
@@ -60,4 +61,5 @@ Wasn't happy with how I performed on these
 
 | Problem  | Solution  | Notes  |
 | -------- | --------- | ------ |
-| Binary search  | https://www.geeksforgeeks.org/binary-search/  | Messed up on the midpoint calculation  |
+| Binary search  | Iterative  | Messed up on the midpoint calculation  |
+| Bitonic array  | Recursive  | Lots of small errors, around recursion and indexing. I'm having consistent issues with getting indexing correctly, I need to more carefully build the algorithm? Proper TDD would help, exploring every route through the code, though that's not 100% what I'm here for  |
