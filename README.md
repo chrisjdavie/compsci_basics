@@ -54,6 +54,7 @@ Wasn't happy with how I performed on these
 | Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative, recursive  |
 | Bitonic array  | https://practice.geeksforgeeks.org/problems/finding-number/0  | Recursive, iterative  |
 | Bubble Sort  | https://www.geeksforgeeks.org/bubble-sort/  | Iterative  |
+| Insertion Sort  | https://www.geeksforgeeks.org/insertion-sort/  | Iterative  |
 
 
 ### Redo
