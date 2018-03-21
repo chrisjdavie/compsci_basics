@@ -16,12 +16,13 @@ class Test(unittest.TestCase):
 
 def bubble_sort(arr):
 
-    sorted = False
-    while not sorted:
+    for j in range(len(arr), -1, -1):
         sorted = True
-        for i in range(len(arr)-1):
+        for i in range(j-1):
             if arr[i] > arr[i+1]:
                 arr[i], arr[i+1] = arr[i+1], arr[i]
                 sorted = False
+        if sorted:
+            break
 
     return arr
