@@ -19,7 +19,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Tom and Jerry  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, simple  |
 | Pick from top or bottom  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, tabulation  |
 | 0-1 knapsack problem  | https://www.geeksforgeeks.org/knapsack-problem/  | Recursive, tabulation  |
-| Boolean Parenthesization Problem  | https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/  | Recursive  |
+| Boolean Parenthesization Problem  | https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/  | Recursive, iterative  |
 
 
 ### Redo
