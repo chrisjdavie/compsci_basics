@@ -19,7 +19,7 @@ I'm not too bad at this, but my formal understanding is pretty limited. So, star
 | Tom and Jerry  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, simple  |
 | Pick from top or bottom  | https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/  | Recursive, memoization, tabulation  |
 | 0-1 knapsack problem  | https://www.geeksforgeeks.org/knapsack-problem/  | Recursive, tabulation  |
-| Boolean Parenthesization Problem  | https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/  | Recursive, iterative  |
+| Boolean Parenthesization Problem  | https://www.geeksforgeeks.org/dynamic-programming-set-37-boolean-parenthesization-problem/  | Recursive, memoization, tabulation  |
 
 
 ### Redo
@@ -52,7 +52,8 @@ Wasn't happy with how I performed on these
 | Problem   | Link  | Solutions  |
 | --------- | ----- | ---------- |
 | Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative, recursive  |
-| Bitonic array  | https://practice.geeksforgeeks.org/problems/finding-number/0  | Recursive  |
+| Bitonic array  | https://practice.geeksforgeeks.org/problems/finding-number/0  | Recursive, iterative  |
+| Bubble Sort  | https://www.geeksforgeeks.org/bubble-sort/  | Iterative  |
 
 
 ### Redo
