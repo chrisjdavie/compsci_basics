@@ -24,9 +24,11 @@ def insertion_sort(arr):
 
     for i in range(1, len(arr)):
         insert_num = arr[i]
-        insert_ind = bisect.bisect_left(arr, insert_num, 0, i)
-        tmp = insert_num
-        for j in range(insert_ind, i+1):
-            arr[j], tmp = tmp, arr[j]
-
+        for j in range(i, 0, -1):
+            if arr[j-1] <= insert_num:
+                arr[j] = insert_num
+                break
+            arr[j] = arr[j-1]
+        else:
+            arr[0] = insert_num
     return arr
