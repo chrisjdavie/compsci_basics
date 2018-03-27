@@ -53,8 +53,9 @@ Wasn't happy with how I performed on these
 | --------- | ----- | ---------- |
 | Binary search  | https://www.geeksforgeeks.org/binary-search/  | Iterative, recursive  |
 | Bitonic array  | https://practice.geeksforgeeks.org/problems/finding-number/0  | Recursive, iterative  |
-| Bubble Sort  | https://www.geeksforgeeks.org/bubble-sort/  | Iterative  |
-| Insertion Sort  | https://www.geeksforgeeks.org/insertion-sort/  | Iterative  |
+| Bubble sort  | https://www.geeksforgeeks.org/bubble-sort/  | Iterative  |
+| Insertion sort  | https://www.geeksforgeeks.org/insertion-sort/  | Iterative  |
+| Merge sort  | https://www.geeksforgeeks.org/merge-sort/  | Recursive  |
 
 
 ### Redo
@@ -65,3 +66,4 @@ Wasn't happy with how I performed on these
 | -------- | --------- | ------ |
 | Binary search  | Iterative  | Messed up on the midpoint calculation  |
 | Bitonic array  | Recursive  | Lots of small errors, around recursion and indexing. I'm having consistent issues with getting indexing correctly, I need to more carefully build the algorithm? Proper TDD would help, exploring every route through the code, though that's not 100% what I'm here for  |
+|  Merge sort  | Recursive  | I got the formula wrong the first time, though did come up with a cool generator solution  |
