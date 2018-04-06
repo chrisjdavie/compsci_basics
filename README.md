@@ -57,6 +57,7 @@ Wasn't happy with how I performed on these
 | Insertion sort  | https://www.geeksforgeeks.org/insertion-sort/  | Iterative  |
 | Merge sort  | https://www.geeksforgeeks.org/merge-sort/  | Recursive  |
 | Heap sort  | https://www.geeksforgeeks.org/heap-sort/  | Iterative  |
+| Quick sort  | https://www.geeksforgeeks.org/quick-sort/  | Recursive  |
 
 
 ### Redo
@@ -69,3 +70,4 @@ Wasn't happy with how I performed on these
 | Bitonic array  | Recursive  | Lots of small errors, around recursion and indexing. I'm having consistent issues with getting indexing correctly, I need to more carefully build the algorithm? Proper TDD would help, exploring every route through the code, though that's not 100% what I'm here for  |
 |  Merge sort  | Recursive  | I got the formula wrong the first time, though did come up with a cool generator solution  |
 | Heap sort  | Iterative  | Wrong formula first time, issues with the sort part 2nd time  |
+| Quick sort  | Recursive  | Did pretty well, just very slow  |
