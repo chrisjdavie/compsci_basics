@@ -58,6 +58,7 @@ Wasn't happy with how I performed on these
 | Merge sort  | https://www.geeksforgeeks.org/merge-sort/  | Recursive  |
 | Heap sort  | https://www.geeksforgeeks.org/heap-sort/  | Iterative  |
 | Quick sort  | https://www.geeksforgeeks.org/quick-sort/  | Recursive  |
+| Interpolation Search  | https://www.geeksforgeeks.org/interpolation-search/  | Iterative  |
 
 
 ### Redo
