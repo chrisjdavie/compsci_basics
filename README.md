@@ -59,7 +59,7 @@ Wasn't happy with how I performed on these
 | Heap sort  | https://www.geeksforgeeks.org/heap-sort/  | Iterative  |
 | Quick sort  | https://www.geeksforgeeks.org/quick-sort/  | Recursive  |
 | Interpolation Search  | https://www.geeksforgeeks.org/interpolation-search/  | Iterative  |
-| Kth smallest  | https://practice.geeksforgeeks.org/problems/kth-smallest-element/0 | Heap  |
+| Kth smallest  | https://practice.geeksforgeeks.org/problems/kth-smallest-element/0 | Heap, Quick Search  |
 
 
 ### Redo
