@@ -74,3 +74,9 @@ Wasn't happy with how I performed on these
 |  Merge sort  | Recursive  | I got the formula wrong the first time, though did come up with a cool generator solution  |
 | Heap sort  | Iterative  | Wrong formula first time, issues with the sort part 2nd time  |
 | Quick sort  | Recursive  | Did pretty well, just very slow  |
+
+### Thoughts
+
+Python doesn't use any of these, it uses Timsort, which "is a hybrid stable sorting algorithm, derived from merge sort and insertion sort" (Wiki!). https://bugs.python.org/file4451/timsort.txt. Prior to that it used "samplesort". 
+
+Ultimately, for most data sizes I'm going to use sorting isn't going to be a thing I'll be implementing on my own, and if I do have to, I'll have to read up a lot on existing solutions. This has been solved before, by lots of people.
