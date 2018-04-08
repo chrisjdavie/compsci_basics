@@ -60,6 +60,7 @@ Wasn't happy with how I performed on these
 | Quick sort  | https://www.geeksforgeeks.org/quick-sort/  | Recursive  |
 | Interpolation Search  | https://www.geeksforgeeks.org/interpolation-search/  | Iterative  |
 | Kth smallest  | https://practice.geeksforgeeks.org/problems/kth-smallest-element/0 | Heap, Quick Search  |
+| Key pair  | https://practice.geeksforgeeks.org/problems/key-pair/0  | O(N)  |
 
 
 ### Redo
