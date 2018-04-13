@@ -97,3 +97,10 @@ Wasn't happy with how I performed on these
 | -------- | --------- | ------ |
 | Can an array represent preorder traversal of a binary tree  | Stack  | I hadn't really considered the connection between stacks and binary search trees  |
 
+## Miscellaneous
+
+These are because I was diving into some side subjects for greater clarity on whatever I was solving
+
+| Problem   | Link  | Solutions  | Notes  |
+| --------- | ----- | ---------- | ------ |
+| Next greater element  | https://practice.geeksforgeeks.org/problems/next-larger-element/0  | Naive, heap, stack  |
