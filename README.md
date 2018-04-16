@@ -88,6 +88,7 @@ Ultimately, for most data sizes I'm going to use sorting isn't going to be a thi
 | Find Minimum Depth of a Binary Tree |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | BFS  |
 | Maximum path sum of a binary tree |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | DFS post-order  |
 | Can an array represent preorder traversal of a binary tree  |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | Tree, stack  |
+| Postorder to preorder representation of a binary tree  |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | Stack  |
 
 ### Redo
 
@@ -96,6 +97,7 @@ Wasn't happy with how I performed on these
 | Problem  | Solution  | Notes  |
 | -------- | --------- | ------ |
 | Can an array represent preorder traversal of a binary tree  | Stack  | I hadn't really considered the connection between stacks and binary search trees  |
+| Postorder to preorder representation of a binary tree  | Stack  | This required two stacks, which I hadn't considered and took me waaaay too long because of that (and not really having an intuition for problems like this it turns out)  |
 
 ## Miscellaneous
 
