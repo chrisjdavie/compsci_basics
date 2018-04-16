@@ -89,6 +89,7 @@ Ultimately, for most data sizes I'm going to use sorting isn't going to be a thi
 | Maximum path sum of a binary tree |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | DFS post-order  |
 | Can an array represent preorder traversal of a binary tree  |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | Tree, stack  |
 | Postorder to preorder representation of a binary tree  |  https://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/  | Stack  |
+| Check if full binary tree  | https://practice.geeksforgeeks.org/problems/full-binary-tree/1  | Stack, recursive  |
 
 ### Redo
 
@@ -106,3 +107,7 @@ These are because I was diving into some side subjects for greater clarity on wh
 | Problem   | Link  | Solutions  | Notes  |
 | --------- | ----- | ---------- | ------ |
 | Next greater element  | https://practice.geeksforgeeks.org/problems/next-larger-element/0  | Naive, heap, stack  |
+
+## TODO
+
+I need to learn bitwise operations, I don't know this
