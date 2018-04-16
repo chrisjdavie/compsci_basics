@@ -1,7 +1,7 @@
 from parameterized import parameterized
 import unittest
 
-from .tree import Node, TreeMaker
+from utils.tree import Node, TreeMaker
 
 
 class Test(unittest.TestCase):
