@@ -38,25 +38,23 @@ class Test(unittest.TestCase):
         self.assertEqual(bottom_view(node, 1), expected_bottom_view)
 
 
-def _bottom_view(node, x_coord, depth, bottom_view_data):
-    if not node:
-        return
-
-    bottom_view_data[x_coord] = (depth, node.data)
-
-    _bottom_view(node.left, x_coord - 1, depth + 1, bottom_view_data)
-    _bottom_view(node.right, x_coord + 1, depth + 1, bottom_view_data)
-
-
 def bottom_view(root, num_nodes):
-    """Using a dict here is worst-case less quick than using an empty array 
-    (you'd need to sort the dict indicies).
-
-    A dict feels more Pythonic, and in the general case is probably as fast with
-    less code. In real life I'd use a dict, but these tests op"""
+    if not root:
+        return []
 
     bottom_view_data = BottomViewData(num_nodes)
 
-    _bottom_view(root, 0, 0, bottom_view_data)
+    stack = [(0, 0, root)]
+
+    while stack:
+
+        x_coord, depth, node = stack.pop()
+
+        bottom_view_data[x_coord] = (depth, node.data)
+
+        if node.right:
+            stack.append((x_coord+1, depth+1, node.right))
+        if node.left:
+            stack.append((x_coord-1, depth+1, node.left))
 
     return bottom_view_data.view()

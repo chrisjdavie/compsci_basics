@@ -12,6 +12,10 @@ class TreeMaker:
 
     @classmethod
     def from_node_description(cls, node_description):
+        return cls.tree_and_node_count_from_node_description(node_description)[0]
+
+    @classmethod
+    def tree_and_node_count_from_node_description(cls, node_description):
         nodes = {}
         children_data = set()
         parents_data = set()
@@ -31,6 +35,7 @@ class TreeMaker:
             if side == "R":
                 parent.right = child
         data_root = parents_data.difference(children_data).pop()
-        return nodes[data_root]
+	
+        return nodes[data_root], len(parents_data.union(children_data))
 
 
