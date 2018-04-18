@@ -40,15 +40,20 @@ class Test(unittest.TestCase):
         self.assertEqual(lowest_common_ancestor(root, value0, value1), expected_lca_value)
 
 
-def _lowest_common_ancestor(node, value0, value1):
+def _lowest_common_ancestor(root, value0, value1):
 
-    if node.data > value0 and node.data > value1:
-        return _lowest_common_ancestor(node.left, value0, value1)
-    if node.data < value0 and node.data < value1:
-        return _lowest_common_ancestor(node.right, value0, value1)
+    node = root
+
+    while True:
+
+        if node.data > value0 and node.data > value1:
+            node = node.left
+        elif node.data < value0 and node.data < value1:
+            node = node.right
+        else:
+            break
 
     return node
-
 
 def lowest_common_ancestor(root, value0, value1):
     return _lowest_common_ancestor(root, value0, value1).data
