@@ -5,6 +5,34 @@ class Node:
         self.left = None
         self.right = None
 
+    def __eq__(self, other):
+
+        try:
+            return self.data == other.data and self.left == other.left and self.right == other.right
+        except AttributeError:
+            return False
+
+    def __repr__(self):
+        return "Node(data:{})".format(self.data)
+
+
+class Tree:
+
+    @classmethod
+    def print_two_trees(cls, tree0, tree1):
+        if tree0:
+            print(tree0.data, end=" ")
+        else:
+            print("Null tree0", end=" ")
+        if tree1:
+            print(tree1.data)
+        else:
+            print("Null tree1")
+
+        if tree0 and tree1:
+            cls.print_two_trees(tree0.left, tree1.left)
+            cls.print_two_trees(tree0.right, tree1.right)
+
 
 class TreeMaker:
 
@@ -38,4 +66,10 @@ class TreeMaker:
 	
         return nodes[data_root], len(parents_data.union(children_data))
 
+    @classmethod
+    def from_node_idents(cls, node_idents):
+        if len(node_idents) == 1:
+            return cls.obj(node_idents[0])
 
+        node_description = [ (ident[:-1], ident, ident[-1]) for ident in node_idents[1:] ]
+        return cls.from_node_description(node_description)

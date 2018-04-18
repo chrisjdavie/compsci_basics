@@ -92,6 +92,7 @@ Ultimately, for most data sizes I'm going to use sorting isn't going to be a thi
 | Check if full binary tree  | https://practice.geeksforgeeks.org/problems/full-binary-tree/1  | Stack, recursive  |
 | Bottom view of a binary tree  | https://www.geeksforgeeks.org/bottom-view-binary-tree/  | Stack, recursive  |
 | Top view of a binary tree  | https://www.geeksforgeeks.org/bottom-view-binary-tree/  | Queue  |
+| Remove nodes below min root to leaf path  | https://www.geeksforgeeks.org/remove-nodes-root-leaf-paths-length-k/  | Recursive, iterative (stack and queue)  |
 
 ### Redo
 
@@ -101,7 +102,8 @@ Wasn't happy with how I performed on these
 | -------- | --------- | ------ |
 | Can an array represent preorder traversal of a binary tree  | Stack  | I hadn't really considered the connection between stacks and binary search trees  |
 | Postorder to preorder representation of a binary tree  | Stack  | This required two stacks, which I hadn't considered and took me waaaay too long because of that (and not really having an intuition for problems like this it turns out)  |
-| Bottom view of a binary  | Recursive  | Missed a subltey wrt to order and depth in the initial algorithm |
+| Bottom view of a binary  | Recursive  | Missed a subltey wrt to order and depth in the initial algorithm  |
+| Remove nodes below min root to leaf path  | Recursive  | My initial solutions wasn't ideal  | 
 
 ## Miscellaneous
 
