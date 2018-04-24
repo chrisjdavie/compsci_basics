@@ -1,0 +1,3 @@
+This one is a pain - I assumed there was a clever general case. There isn't, it's just check each one. I really should get into the habit of implementing the simple case and then seeing if it's good enough...
+
+There is a clever case for coprimes and primes, but that's... well, more niche than I'm interested in perhaps.

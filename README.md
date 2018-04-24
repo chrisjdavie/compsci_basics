@@ -116,6 +116,7 @@ Wasn't happy with how I performed on these
 | Calculate powers  | https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/  | Recursive, iterative  |
 | Modular exponentiation  | https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/  | Recursive, iterative  |
 | Number of subsets and mean  | https://practice.geeksforgeeks.org/problems/number-of-subsets-and-mean/0  |  |
+| Modular multiplicative inverse  | https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/  | Naive  |
 
 ### Redo
 
@@ -125,6 +126,7 @@ Wasn't happy with how I performed on these
 | -------- | --------- | ------ |
 | Calculate powers  | Both  | I had way more issues than I should have. Possibly I was tired  |
 | Modular exponentiation  | Both  | Still a little confused (less than above)  |
+| Modular multiplicative inverse  |  | I spend half an hour thinking about it until I looked at the answers and the only general solution is the simple one :/  |
 
 ## Miscellaneous
 
