@@ -21,11 +21,11 @@ class Tree:
     @classmethod
     def print_two_trees(cls, tree0, tree1):
         if tree0:
-            print(tree0.data, end=" ")
+            print([tree0, tree0.left, tree0.right], end=" ")
         else:
             print("Null tree0", end=" ")
         if tree1:
-            print(tree1.data)
+            print([tree1, tree1.left, tree1.right])
         else:
             print("Null tree1")
 

@@ -94,6 +94,7 @@ Ultimately, for most data sizes I'm going to use sorting isn't going to be a thi
 | Top view of a binary tree  | https://www.geeksforgeeks.org/bottom-view-binary-tree/  | Queue  |
 | Remove nodes below min root to leaf path  | https://www.geeksforgeeks.org/remove-nodes-root-leaf-paths-length-k/  | Recursive, iterative (stack and queue)  |
 | Lowest common ancestor in a binary search tree  | https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/  | Recursive, stack  |
+| Reverse alternate levels of a perfect binary tree  | https://practice.geeksforgeeks.org/problems/reverse-alternate-levels-of-a-perfect-binary-tree/1  | Recursive, queue  |
 
 ### Redo
 
@@ -106,6 +107,23 @@ Wasn't happy with how I performed on these
 | Bottom view of a binary  | Recursive  | Missed a subltey wrt to order and depth in the initial algorithm  |
 | Remove nodes below min root to leaf path  | Recursive  | My initial solution wasn't ideal  | 
 | Lowest common ancestor in a binary search tree  | Recursive  | My initial solution was O(N), when there's an O(logN) solution  |
+| Reverse alternate levels of a perfect binary tree  | Queue  | Took me way too long to figure out, overcomplicated the testing, I instinctively rejected the simplest solution  |
+
+## Subject 4 - Number theory
+
+| Problem   | Link  | Solutions  |
+| --------- | ----- | ---------- |
+| Calculate powers  | https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/  | Recursive, iterative  |
+| Modular exponentiation  | https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/  | Recursive, iterative  |
+
+### Redo
+
+Wasn't happy with how I performed on these
+
+| Problem  | Solution  | Notes  |
+| -------- | --------- | ------ |
+| Calculate powers  | Both  | I had way more issues than I should have. Possibly I was tired  |
+| Modular exponentiation  | Both  | Still a little confused (less than above)  |
 
 ## Miscellaneous
 
