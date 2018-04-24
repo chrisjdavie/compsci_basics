@@ -115,6 +115,7 @@ Wasn't happy with how I performed on these
 | --------- | ----- | ---------- |
 | Calculate powers  | https://www.geeksforgeeks.org/write-a-c-program-to-calculate-powxn/  | Recursive, iterative  |
 | Modular exponentiation  | https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/  | Recursive, iterative  |
+| Number of subsets and mean  | https://practice.geeksforgeeks.org/problems/number-of-subsets-and-mean/0  |  |
 
 ### Redo
 
