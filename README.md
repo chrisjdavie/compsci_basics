@@ -117,6 +117,8 @@ Wasn't happy with how I performed on these
 | Modular exponentiation  | https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/  | Recursive, iterative  |
 | Number of subsets and mean  | https://practice.geeksforgeeks.org/problems/number-of-subsets-and-mean/0  |  |
 | Modular multiplicative inverse  | https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/  | Naive  |
+| Primality test  | https://practice.geeksforgeeks.org/problems/prime-number/0  | School, Fermat  |
+| Sieve of Eratosthenes  | https://www.geeksforgeeks.org/sieve-of-eratosthenes/  | Simple, complex, naive  |
 
 ### Redo
 
